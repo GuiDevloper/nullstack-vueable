@@ -1,0 +1,12 @@
+{
+  "name": "nullstack-vueable",
+  "version": "0.9.5",
+  "description": "Making Nullstack framework able to read Vue basic template syntax",
+  "main": "index.js",
+  "repository": "https://github.com/GuiDevloper/nullstack-vueable",
+  "author": "GuiDevloper",
+  "license": "MIT",
+  "peerDependencies": {
+    "nullstack": "*"
+  }
+}
