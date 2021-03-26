@@ -4,7 +4,7 @@ Built with [`create-nullstack-app`](https://github.com/nullstack/create-nullstac
 
 <img src='https://raw.githubusercontent.com/nullstack/nullstack/master/nullstack.png' height='60' alt='Nullstack' />
 
-## How to run those tests
+## How to install
 
 Install the dependencies:
 
@@ -12,9 +12,21 @@ Install the dependencies:
 npm link # at root of package
 cd tests
 npm install # or install with yarn install
-npm start # run the tests project
+npm link nullstack-vueable
+```
 
-npm run tests # run the tests in another command line
+## How to run the tests
+
+`cd` to the `tests` folder and run the application:
+
+```sh
+npm start # run the tests project
+```
+
+in another terminal `cd` to the `tests` folder and run the tests:
+
+```sh
+npm test
 ```
 
 ## Learn more about Nullstack

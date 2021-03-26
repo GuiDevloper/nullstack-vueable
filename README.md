@@ -2,6 +2,28 @@
 
 Making Nullstack framework able to read Vue basic template syntax
 
+## Installation
+
+Run this command on your Nullstack project:
+
+```sh
+npm install nullstack-vueable -D
+```
+
+or, using Yarn:
+
+```sh
+yarn add nullstack-vueable -D
+```
+
+Then import it in your **index.js** file (as shown here in **tests/index.js**):
+
+```js
+import vueable from 'nullstack-vueable';
+
+Nullstack.use(vueable);
+```
+
 ## Examples
 
 > All of this can be seen being used on tests folder
