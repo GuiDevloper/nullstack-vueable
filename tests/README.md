@@ -15,7 +15,7 @@ npm install # or install with yarn install
 npm link nullstack-vueable
 ```
 
-## How to run the tests
+## How to run the tests (still to be added)
 
 `cd` to the `tests` folder and run the application:
 
