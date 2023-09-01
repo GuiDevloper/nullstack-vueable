@@ -5,4 +5,8 @@ import vueable from 'nullstack-vueable';
 
 Nullstack.use(vueable);
 
-Nullstack.start(Application);
+const context = Nullstack.start(Application);
+
+Application.start(context)
+
+export default context

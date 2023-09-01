@@ -18,6 +18,8 @@ yarn add nullstack-vueable -D
 
 Then import it in your **index.js** file (as shown here in **tests/index.js**):
 
+Then import it in your **client.js**/**server.js** files (as shown here in [**tests/client.js**](./tests/client.js)):
+
 ```js
 import vueable from 'nullstack-vueable';
 
